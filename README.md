@@ -22,7 +22,7 @@ A modern, responsive Tetris game built with React, TypeScript, and Vite. Feature
 
 ## 🚀 Live Demo
 
-Play the game online: [Tetris MVP](https://annanerdstation.github.io/tetris-mvp/)
+Play the game online: [Tetris MVP](https://annanerdstation.github.io/Tetris-MVP/)
 
 ## 🛠️ Installation & Development
 
@@ -35,7 +35,7 @@ Play the game online: [Tetris MVP](https://annanerdstation.github.io/tetris-mvp/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/annanerdstation/tetris-mvp.git
+   git clone https://github.com/Annanerdstation/Tetris-MVP.git
    cd tetris-mvp
    ```
 
