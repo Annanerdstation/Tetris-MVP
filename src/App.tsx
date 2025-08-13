@@ -67,7 +67,7 @@ const BOARD_HEIGHT = 20
 const INITIAL_DROP_TIME = 1000
 
 // Create empty board
-const createBoard = () => 
+const createBoard = (): (string | number)[][] => 
   Array.from({ length: BOARD_HEIGHT }, () => 
     Array.from({ length: BOARD_WIDTH }, () => 0)
   )
@@ -119,7 +119,7 @@ function App() {
     collided: false,
   })
   const [gameOver, setGameOver] = useState(false)
-  const [board, setBoard] = useState(createBoard())
+  const [board, setBoard] = useState<(string | number)[][]>(createBoard())
   const [score, setScore] = useState(0)
   const [level, setLevel] = useState(1)
   const [lines, setLines] = useState(0)
